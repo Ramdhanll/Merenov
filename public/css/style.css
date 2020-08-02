@@ -1,0 +1,96 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  color: white !important;
+
+}
+
+body {
+  background-color: #505861;
+}
+
+header {
+  background-image: url('../images/banner/banner.jpg');
+  background-size: cover;
+  height: 90vh;
+  padding: 60px 30px 40px 130px;
+}
+
+header h1 {
+  font-size: 50px;
+  color: white !important;
+
+}
+
+header p {
+  font-size: 25px;
+  color: white !important;
+
+}
+
+.navbar-brand {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.navbar-brand ,.nav-link {
+  color: white !important;
+}
+
+.section-service .row .card img {
+  max-height: 100px;
+  max-width: 100px;
+  margin: 10px auto;
+}
+
+.section-service .row .card  {
+  text-align: center;
+}
+
+.section-partners .row .card img {
+  max-height: 150px;
+}
+
+.section-gallery .row .card img {
+  max-height: 150px;
+}
+
+.section-gallery .row .card {
+  max-height: 150px;
+  margin-bottom: 20px;
+}
+
+.create-rumah {
+  width: 70%;
+}
+
+.section-success {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+.section-success .card {
+  width: 500px !important;
+}
+
+.section-success .card .card-body .title-success {
+  font-weight: 600 !important;
+  color: green !important;
+  font-size: 42px;
+}
+
+.section-success .card .card-body .p-success {
+  color: green !important;
+  font-size: 22px;
+  text-align: center;
+}
+
+.btn-success {
+  display: flex;
+  justify-content: center;
+  background-color: green;
+}
